@@ -19,4 +19,8 @@ https://developer.apple.com/downloads/
 
 ### Libruary Setup
 
-スクリプト作成中
+プロジェクトをcloneしてきたあとにスクリプト実行
+
+```
+$ sh UI_Catalog_build.sh
+```
