@@ -1,0 +1,34 @@
+# Xcode
+#
+build/
+DerivedData/
+	
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.xcuserdata
+	
+# R.swift
+*.generated.swift
+	
+#Carthage
+Carthage/
+	
+#CocoaPods
+Pods/
+	
+# others
+*.swp
+.DS_Store/

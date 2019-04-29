@@ -1,0 +1,3 @@
+github "ReactiveX/RxSwift" "4.4.0"
+github "airbnb/lottie-ios" "84009f19580f9ad770a3b706e1ddfefc8a7a87e6"
+github "kishikawakatsumi/KeychainAccess" "v3.1.2"
