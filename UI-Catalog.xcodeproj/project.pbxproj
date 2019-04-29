@@ -20,6 +20,19 @@
 		5B3647C32276AEFC00A29769 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647C22276AEFC00A29769 /* Style.swift */; };
 		5B3647C82276C1AB00A29769 /* LicenseViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647C72276C1AB00A29769 /* LicenseViewController.storyboard */; };
 		5B3647CA2276C1BB00A29769 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647C92276C1BB00A29769 /* LicenseViewController.swift */; };
+		5B3647CE2277039E00A29769 /* CollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647CD2277039E00A29769 /* CollectionViewController.storyboard */; };
+		5B3647D0227703B100A29769 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647CF227703B100A29769 /* CollectionViewController.swift */; };
+		5B3647D32277052F00A29769 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647D12277052F00A29769 /* CustomCollectionViewCell.swift */; };
+		5B3647D42277052F00A29769 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647D22277052F00A29769 /* CustomCollectionViewCell.xib */; };
+		5B3647D62277056700A29769 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647D52277056700A29769 /* CollectionViewDataSource.swift */; };
+		5B3647D8227706E000A29769 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647D7227706E000A29769 /* CollectionViewFlowLayout.swift */; };
+		5B3647DB227708EE00A29769 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647DA227708EE00A29769 /* AudioManager.swift */; };
+		5B3647E122770A5F00A29769 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647DD22770A5F00A29769 /* Lottie.framework */; };
+		5B3647E222770A5F00A29769 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647DE22770A5F00A29769 /* KeychainAccess.framework */; };
+		5B3647E322770A5F00A29769 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647DF22770A5F00A29769 /* RxCocoa.framework */; };
+		5B3647E422770A5F00A29769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647E022770A5F00A29769 /* RxSwift.framework */; };
+		5B3647E622770F6B00A29769 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647E522770F6B00A29769 /* SectionHeaderView.swift */; };
+		5B3647E822770F7C00A29769 /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647E722770F7C00A29769 /* SectionFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +51,19 @@
 		5B3647C22276AEFC00A29769 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		5B3647C72276C1AB00A29769 /* LicenseViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LicenseViewController.storyboard; sourceTree = "<group>"; };
 		5B3647C92276C1BB00A29769 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		5B3647CD2277039E00A29769 /* CollectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionViewController.storyboard; sourceTree = "<group>"; };
+		5B3647CF227703B100A29769 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5B3647D12277052F00A29769 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B3647D22277052F00A29769 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		5B3647D52277056700A29769 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		5B3647D7227706E000A29769 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		5B3647DA227708EE00A29769 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		5B3647DD22770A5F00A29769 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		5B3647DE22770A5F00A29769 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		5B3647DF22770A5F00A29769 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5B3647E022770A5F00A29769 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5B3647E522770F6B00A29769 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		5B3647E722770F7C00A29769 /* SectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3647E122770A5F00A29769 /* Lottie.framework in Frameworks */,
+				5B3647E222770A5F00A29769 /* KeychainAccess.framework in Frameworks */,
+				5B3647E322770A5F00A29769 /* RxCocoa.framework in Frameworks */,
+				5B3647E422770A5F00A29769 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +86,7 @@
 			children = (
 				5B36479D22769EAC00A29769 /* UI-Catalog */,
 				5B36479C22769EAC00A29769 /* Products */,
+				5B3647DC22770A5D00A29769 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +139,7 @@
 				5B3647B02276A76300A29769 /* TutorialView */,
 				5B3647B12276A77C00A29769 /* LoginView */,
 				5B3647C62276C17F00A29769 /* LicenseView */,
+				5B3647CC2277035300A29769 /* CollectionView */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -130,6 +162,7 @@
 		5B3647BE2276ADFD00A29769 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				5B3647D9227708C700A29769 /* Util */,
 				5B3647BF2276AE1000A29769 /* Extensions */,
 			);
 			path = Utility;
@@ -150,6 +183,40 @@
 				5B3647C92276C1BB00A29769 /* LicenseViewController.swift */,
 			);
 			path = LicenseView;
+			sourceTree = "<group>";
+		};
+		5B3647CC2277035300A29769 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5B3647CD2277039E00A29769 /* CollectionViewController.storyboard */,
+				5B3647CF227703B100A29769 /* CollectionViewController.swift */,
+				5B3647D12277052F00A29769 /* CustomCollectionViewCell.swift */,
+				5B3647D22277052F00A29769 /* CustomCollectionViewCell.xib */,
+				5B3647D52277056700A29769 /* CollectionViewDataSource.swift */,
+				5B3647D7227706E000A29769 /* CollectionViewFlowLayout.swift */,
+				5B3647E522770F6B00A29769 /* SectionHeaderView.swift */,
+				5B3647E722770F7C00A29769 /* SectionFooterView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		5B3647D9227708C700A29769 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5B3647DA227708EE00A29769 /* AudioManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5B3647DC22770A5D00A29769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3647DE22770A5F00A29769 /* KeychainAccess.framework */,
+				5B3647DD22770A5F00A29769 /* Lottie.framework */,
+				5B3647DF22770A5F00A29769 /* RxCocoa.framework */,
+				5B3647E022770A5F00A29769 /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +285,8 @@
 				5B3647B82276A84100A29769 /* TutorialViewController.storyboard in Resources */,
 				5B3647A422769EAC00A29769 /* Main.storyboard in Resources */,
 				5B3647B62276A83100A29769 /* LoginViewController.storyboard in Resources */,
+				5B3647CE2277039E00A29769 /* CollectionViewController.storyboard in Resources */,
+				5B3647D42277052F00A29769 /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +341,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3647BA2276A88100A29769 /* LoginViewController.swift in Sources */,
+				5B3647D32277052F00A29769 /* CustomCollectionViewCell.swift in Sources */,
+				5B3647E622770F6B00A29769 /* SectionHeaderView.swift in Sources */,
 				5B3647C32276AEFC00A29769 /* Style.swift in Sources */,
 				5B3647C12276AED500A29769 /* NSObjectProtcol+Extensions.swift in Sources */,
+				5B3647E822770F7C00A29769 /* SectionFooterView.swift in Sources */,
 				5B3647A122769EAC00A29769 /* MainViewController.swift in Sources */,
+				5B3647D62277056700A29769 /* CollectionViewDataSource.swift in Sources */,
+				5B3647DB227708EE00A29769 /* AudioManager.swift in Sources */,
+				5B3647D8227706E000A29769 /* CollectionViewFlowLayout.swift in Sources */,
+				5B3647D0227703B100A29769 /* CollectionViewController.swift in Sources */,
 				5B3647CA2276C1BB00A29769 /* LicenseViewController.swift in Sources */,
 				5B3647BC2276A8A400A29769 /* TutorialViewController.swift in Sources */,
 				5B36479F22769EAC00A29769 /* AppDelegate.swift in Sources */,
@@ -427,6 +503,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B46YA9GNL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "UI-Catalog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,6 +525,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B46YA9GNL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "UI-Catalog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
