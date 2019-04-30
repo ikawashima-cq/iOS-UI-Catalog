@@ -33,6 +33,14 @@
 		5B3647E422770A5F00A29769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647E022770A5F00A29769 /* RxSwift.framework */; };
 		5B3647E622770F6B00A29769 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647E522770F6B00A29769 /* SectionHeaderView.swift */; };
 		5B3647E822770F7C00A29769 /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647E722770F7C00A29769 /* SectionFooterView.swift */; };
+		5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647EA2277D8EA00A29769 /* ChatViewController.swift */; };
+		5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647EC2277DE1F00A29769 /* Differentiator.framework */; };
+		5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647ED2277DE1F00A29769 /* RxDataSources.framework */; };
+		5B3647F22277DE1F00A29769 /* Instructions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647EE2277DE1F00A29769 /* Instructions.framework */; };
+		5B3647F32277DE1F00A29769 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647EF2277DE1F00A29769 /* MessageKit.framework */; };
+		5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647F42277DF1300A29769 /* MessageInputBar.framework */; };
+		5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647F62277E07D00A29769 /* ChatViewController.storyboard */; };
+		5B3647F92277E16200A29769 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647F82277E16200A29769 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +72,14 @@
 		5B3647E022770A5F00A29769 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		5B3647E522770F6B00A29769 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		5B3647E722770F7C00A29769 /* SectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooterView.swift; sourceTree = "<group>"; };
+		5B3647EA2277D8EA00A29769 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5B3647EC2277DE1F00A29769 /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		5B3647ED2277DE1F00A29769 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		5B3647EE2277DE1F00A29769 /* Instructions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instructions.framework; path = Carthage/Build/iOS/Instructions.framework; sourceTree = "<group>"; };
+		5B3647EF2277DE1F00A29769 /* MessageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageKit.framework; path = Carthage/Build/iOS/MessageKit.framework; sourceTree = "<group>"; };
+		5B3647F42277DF1300A29769 /* MessageInputBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageInputBar.framework; path = Carthage/Build/iOS/MessageInputBar.framework; sourceTree = "<group>"; };
+		5B3647F62277E07D00A29769 /* ChatViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatViewController.storyboard; sourceTree = "<group>"; };
+		5B3647F82277E16200A29769 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */,
+				5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */,
+				5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */,
+				5B3647F22277DE1F00A29769 /* Instructions.framework in Frameworks */,
+				5B3647F32277DE1F00A29769 /* MessageKit.framework in Frameworks */,
 				5B3647E122770A5F00A29769 /* Lottie.framework in Frameworks */,
 				5B3647E222770A5F00A29769 /* KeychainAccess.framework in Frameworks */,
 				5B3647E322770A5F00A29769 /* RxCocoa.framework in Frameworks */,
@@ -140,6 +161,7 @@
 				5B3647B12276A77C00A29769 /* LoginView */,
 				5B3647C62276C17F00A29769 /* LicenseView */,
 				5B3647CC2277035300A29769 /* CollectionView */,
+				5B3647E92277D8BA00A29769 /* ChatView */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -211,12 +233,27 @@
 		5B3647DC22770A5D00A29769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B3647F42277DF1300A29769 /* MessageInputBar.framework */,
+				5B3647EC2277DE1F00A29769 /* Differentiator.framework */,
+				5B3647EE2277DE1F00A29769 /* Instructions.framework */,
+				5B3647EF2277DE1F00A29769 /* MessageKit.framework */,
+				5B3647ED2277DE1F00A29769 /* RxDataSources.framework */,
 				5B3647DE22770A5F00A29769 /* KeychainAccess.framework */,
 				5B3647DD22770A5F00A29769 /* Lottie.framework */,
 				5B3647DF22770A5F00A29769 /* RxCocoa.framework */,
 				5B3647E022770A5F00A29769 /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B3647E92277D8BA00A29769 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				5B3647EA2277D8EA00A29769 /* ChatViewController.swift */,
+				5B3647F62277E07D00A29769 /* ChatViewController.storyboard */,
+				5B3647F82277E16200A29769 /* Message.swift */,
+			);
+			path = ChatView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3647C82276C1AB00A29769 /* LicenseViewController.storyboard in Resources */,
+				5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */,
 				5B3647A922769EAD00A29769 /* LaunchScreen.storyboard in Resources */,
 				5B3647A622769EAD00A29769 /* Assets.xcassets in Resources */,
 				5B3647B82276A84100A29769 /* TutorialViewController.storyboard in Resources */,
@@ -305,6 +343,11 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Instructions.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MessageInputBar.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MessageKit.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
@@ -353,6 +396,8 @@
 				5B3647D0227703B100A29769 /* CollectionViewController.swift in Sources */,
 				5B3647CA2276C1BB00A29769 /* LicenseViewController.swift in Sources */,
 				5B3647BC2276A8A400A29769 /* TutorialViewController.swift in Sources */,
+				5B3647F92277E16200A29769 /* Message.swift in Sources */,
+				5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */,
 				5B36479F22769EAC00A29769 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
