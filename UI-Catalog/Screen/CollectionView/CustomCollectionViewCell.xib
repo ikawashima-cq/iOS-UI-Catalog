@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="gTV-IL-0wX" customClass="CustomCollectionViewCell" customModule="UI_Catalog" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="98"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRN-c2-Pro">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="98"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="89z-Gj-YYw">
+                                <rect key="frame" x="0.0" y="0.0" width="223" height="98"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fj3-nI-A7f">
+                                        <rect key="frame" x="0.0" y="0.0" width="131.5" height="98"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="7zQ-YO-6lk">
+                                        <rect key="frame" x="136.5" y="0.0" width="86.5" height="98"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Et-cN-cdv">
+                                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk1-IV-3xs">
+                                                <rect key="frame" x="0.0" y="77.5" width="86.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="89z-Gj-YYw" firstAttribute="top" secondItem="ve6-TJ-Q4a" secondAttribute="top" id="0o3-cf-hgE"/>
+                            <constraint firstAttribute="trailing" secondItem="89z-Gj-YYw" secondAttribute="trailing" id="9s2-e1-b3j"/>
+                            <constraint firstItem="89z-Gj-YYw" firstAttribute="leading" secondItem="WRN-c2-Pro" secondAttribute="leading" id="Bak-LE-DDz"/>
+                            <constraint firstAttribute="bottom" secondItem="89z-Gj-YYw" secondAttribute="bottom" id="ovI-hf-SIY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ve6-TJ-Q4a"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WRN-c2-Pro" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Gqw-sX-jYK"/>
+                <constraint firstItem="WRN-c2-Pro" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eTY-SA-yYb"/>
+                <constraint firstAttribute="bottom" secondItem="WRN-c2-Pro" secondAttribute="bottom" id="wcJ-wh-eJF"/>
+                <constraint firstAttribute="trailing" secondItem="WRN-c2-Pro" secondAttribute="trailing" id="zeb-8E-AHy"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="223" height="98"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="fk1-IV-3xs" id="pRN-A3-sC4"/>
+                <outlet property="imageView" destination="fj3-nI-A7f" id="zhf-iI-7p1"/>
+                <outlet property="titleLabel" destination="2Et-cN-cdv" id="j9e-qe-yei"/>
+            </connections>
+            <point key="canvasLocation" x="40.799999999999997" y="123.23838080959521"/>
+        </collectionViewCell>
+    </objects>
+</document>
