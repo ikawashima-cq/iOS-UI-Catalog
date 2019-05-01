@@ -50,7 +50,6 @@
 		5B36481322797E0400A29769 /* AuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481222797E0400A29769 /* AuthEntity.swift */; };
 		5B3648142279874400A29769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647E022770A5F00A29769 /* RxSwift.framework */; };
 		5B3648162279874700A29769 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3648152279874700A29769 /* Alamofire.framework */; };
-		5B364819227988DA00A29769 /* InputBarAccessoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B364818227988DA00A29769 /* InputBarAccessoryView.framework */; };
 		5B36481B22798C2300A29769 /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481A22798C2300A29769 /* APIRoutes.swift */; };
 		5B36481D22798E2200A29769 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481C22798E2200A29769 /* BaseRequest.swift */; };
 		5B36481F2279961900A29769 /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481E2279961900A29769 /* SignInRequest.swift */; };
@@ -144,7 +143,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B364819227988DA00A29769 /* InputBarAccessoryView.framework in Frameworks */,
 				5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */,
 				5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */,
 				5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */,
@@ -482,7 +480,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageInputBar.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/InputBarAccessoryView.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
