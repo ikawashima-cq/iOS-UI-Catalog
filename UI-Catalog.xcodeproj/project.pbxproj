@@ -43,7 +43,49 @@
 		5B3647F92277E16200A29769 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647F82277E16200A29769 /* Message.swift */; };
 		5B3647FB22784A9E00A29769 /* CustomButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647FA22784A9E00A29769 /* CustomButtons.storyboard */; };
 		5B3647FD22784BB700A29769 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647FC22784BB700A29769 /* OutlinedButton.swift */; };
+		5B36480722797BC100A29769 /* APIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B36480522797BC100A29769 /* APIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B36480A22797BC100A29769 /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36480322797BC100A29769 /* APIClient.framework */; };
+		5B36480B22797BC100A29769 /* APIClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36480322797BC100A29769 /* APIClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B36481122797C1600A29769 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481022797C1600A29769 /* APIClient.swift */; };
+		5B36481322797E0400A29769 /* AuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481222797E0400A29769 /* AuthEntity.swift */; };
+		5B3648142279874400A29769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647E022770A5F00A29769 /* RxSwift.framework */; };
+		5B3648162279874700A29769 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3648152279874700A29769 /* Alamofire.framework */; };
+		5B364819227988DA00A29769 /* InputBarAccessoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B364818227988DA00A29769 /* InputBarAccessoryView.framework */; };
+		5B36481B22798C2300A29769 /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481A22798C2300A29769 /* APIRoutes.swift */; };
+		5B36481D22798E2200A29769 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481C22798E2200A29769 /* BaseRequest.swift */; };
+		5B36481F2279961900A29769 /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481E2279961900A29769 /* SignInRequest.swift */; };
+		5B3648212279972D00A29769 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3648202279972D00A29769 /* SignUpRequest.swift */; };
+		5B36482322799EBC00A29769 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481022797C1600A29769 /* APIClient.swift */; };
+		5B3648242279A2D200A29769 /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481E2279961900A29769 /* SignInRequest.swift */; };
+		5B3648252279A2D600A29769 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3648202279972D00A29769 /* SignUpRequest.swift */; };
+		5B3648262279A2E500A29769 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481C22798E2200A29769 /* BaseRequest.swift */; };
+		5B3648272279A2E800A29769 /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481A22798C2300A29769 /* APIRoutes.swift */; };
+		5B3648282279A2EC00A29769 /* AuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481222797E0400A29769 /* AuthEntity.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B36480822797BC100A29769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B36479322769EAC00A29769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B36480222797BC100A29769;
+			remoteInfo = APIClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B36480F22797BC100A29769 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B36480B22797BC100A29769 /* APIClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B36479B22769EAC00A29769 /* UI-Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +126,17 @@
 		5B3647F82277E16200A29769 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		5B3647FA22784A9E00A29769 /* CustomButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomButtons.storyboard; sourceTree = "<group>"; };
 		5B3647FC22784BB700A29769 /* OutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
+		5B36480322797BC100A29769 /* APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B36480522797BC100A29769 /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		5B36480622797BC100A29769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B36481022797C1600A29769 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5B36481222797E0400A29769 /* AuthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEntity.swift; sourceTree = "<group>"; };
+		5B3648152279874700A29769 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5B364818227988DA00A29769 /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputBarAccessoryView.framework; path = Carthage/Build/iOS/InputBarAccessoryView.framework; sourceTree = "<group>"; };
+		5B36481A22798C2300A29769 /* APIRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoutes.swift; sourceTree = "<group>"; };
+		5B36481C22798E2200A29769 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		5B36481E2279961900A29769 /* SignInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequest.swift; sourceTree = "<group>"; };
+		5B3648202279972D00A29769 /* SignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B364819227988DA00A29769 /* InputBarAccessoryView.framework in Frameworks */,
 				5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */,
 				5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */,
 				5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */,
@@ -99,7 +153,17 @@
 				5B3647E122770A5F00A29769 /* Lottie.framework in Frameworks */,
 				5B3647E222770A5F00A29769 /* KeychainAccess.framework in Frameworks */,
 				5B3647E322770A5F00A29769 /* RxCocoa.framework in Frameworks */,
+				5B36480A22797BC100A29769 /* APIClient.framework in Frameworks */,
 				5B3647E422770A5F00A29769 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B36480022797BC100A29769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3648162279874700A29769 /* Alamofire.framework in Frameworks */,
+				5B3648142279874400A29769 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				5B36479D22769EAC00A29769 /* UI-Catalog */,
+				5B36480422797BC100A29769 /* APIClient */,
 				5B36479C22769EAC00A29769 /* Products */,
 				5B3647DC22770A5D00A29769 /* Frameworks */,
 			);
@@ -119,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				5B36479B22769EAC00A29769 /* UI-Catalog.app */,
+				5B36480322797BC100A29769 /* APIClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,6 +305,8 @@
 		5B3647DC22770A5D00A29769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B364818227988DA00A29769 /* InputBarAccessoryView.framework */,
+				5B3648152279874700A29769 /* Alamofire.framework */,
 				5B3647F42277DF1300A29769 /* MessageInputBar.framework */,
 				5B3647EC2277DE1F00A29769 /* Differentiator.framework */,
 				5B3647EE2277DE1F00A29769 /* Instructions.framework */,
@@ -262,7 +330,33 @@
 			path = ChatView;
 			sourceTree = "<group>";
 		};
+		5B36480422797BC100A29769 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				5B36480522797BC100A29769 /* APIClient.h */,
+				5B36480622797BC100A29769 /* Info.plist */,
+				5B36481022797C1600A29769 /* APIClient.swift */,
+				5B36481222797E0400A29769 /* AuthEntity.swift */,
+				5B36481A22798C2300A29769 /* APIRoutes.swift */,
+				5B36481C22798E2200A29769 /* BaseRequest.swift */,
+				5B36481E2279961900A29769 /* SignInRequest.swift */,
+				5B3648202279972D00A29769 /* SignUpRequest.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B3647FE22797BC100A29769 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B36480722797BC100A29769 /* APIClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5B36479A22769EAC00A29769 /* UI-Catalog */ = {
@@ -274,15 +368,36 @@
 				5B36479922769EAC00A29769 /* Resources */,
 				5B3647C52276C0EA00A29769 /* SwiftLint */,
 				5B3647C42276B7DC00A29769 /* Carthage */,
+				5B36480F22797BC100A29769 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B36480922797BC100A29769 /* PBXTargetDependency */,
 			);
 			name = "UI-Catalog";
 			productName = "UI-Catalog";
 			productReference = 5B36479B22769EAC00A29769 /* UI-Catalog.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5B36480222797BC100A29769 /* APIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B36480E22797BC100A29769 /* Build configuration list for PBXNativeTarget "APIClient" */;
+			buildPhases = (
+				5B3647FE22797BC100A29769 /* Headers */,
+				5B3647FF22797BC100A29769 /* Sources */,
+				5B36480022797BC100A29769 /* Frameworks */,
+				5B36480122797BC100A29769 /* Resources */,
+				5B3648172279878800A29769 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIClient;
+			productName = APIClient;
+			productReference = 5B36480322797BC100A29769 /* APIClient.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -296,6 +411,10 @@
 				TargetAttributes = {
 					5B36479A22769EAC00A29769 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					5B36480222797BC100A29769 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -313,6 +432,7 @@
 			projectRoot = "";
 			targets = (
 				5B36479A22769EAC00A29769 /* UI-Catalog */,
+				5B36480222797BC100A29769 /* APIClient */,
 			);
 		};
 /* End PBXProject section */
@@ -332,6 +452,13 @@
 				5B3647B62276A83100A29769 /* LoginViewController.storyboard in Resources */,
 				5B3647CE2277039E00A29769 /* CollectionViewController.storyboard in Resources */,
 				5B3647D42277052F00A29769 /* CustomCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B36480122797BC100A29769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +482,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageInputBar.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/InputBarAccessoryView.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
@@ -383,6 +511,26 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		5B3648172279878800A29769 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -392,11 +540,13 @@
 			files = (
 				5B3647BA2276A88100A29769 /* LoginViewController.swift in Sources */,
 				5B3647D32277052F00A29769 /* CustomCollectionViewCell.swift in Sources */,
+				5B3648272279A2E800A29769 /* APIRoutes.swift in Sources */,
 				5B3647E622770F6B00A29769 /* SectionHeaderView.swift in Sources */,
 				5B3647C32276AEFC00A29769 /* Style.swift in Sources */,
 				5B3647C12276AED500A29769 /* NSObjectProtcol+Extensions.swift in Sources */,
 				5B3647E822770F7C00A29769 /* SectionFooterView.swift in Sources */,
 				5B3647A122769EAC00A29769 /* MainViewController.swift in Sources */,
+				5B3648282279A2EC00A29769 /* AuthEntity.swift in Sources */,
 				5B3647D62277056700A29769 /* CollectionViewDataSource.swift in Sources */,
 				5B3647DB227708EE00A29769 /* AudioManager.swift in Sources */,
 				5B3647D8227706E000A29769 /* CollectionViewFlowLayout.swift in Sources */,
@@ -406,11 +556,36 @@
 				5B3647F92277E16200A29769 /* Message.swift in Sources */,
 				5B3647FD22784BB700A29769 /* OutlinedButton.swift in Sources */,
 				5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */,
+				5B3648242279A2D200A29769 /* SignInRequest.swift in Sources */,
+				5B3648262279A2E500A29769 /* BaseRequest.swift in Sources */,
+				5B3648252279A2D600A29769 /* SignUpRequest.swift in Sources */,
 				5B36479F22769EAC00A29769 /* AppDelegate.swift in Sources */,
+				5B36482322799EBC00A29769 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3647FF22797BC100A29769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B36481D22798E2200A29769 /* BaseRequest.swift in Sources */,
+				5B36481F2279961900A29769 /* SignInRequest.swift in Sources */,
+				5B36481B22798C2300A29769 /* APIRoutes.swift in Sources */,
+				5B36481322797E0400A29769 /* AuthEntity.swift in Sources */,
+				5B36481122797C1600A29769 /* APIClient.swift in Sources */,
+				5B3648212279972D00A29769 /* SignUpRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B36480922797BC100A29769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B36480222797BC100A29769 /* APIClient */;
+			targetProxy = 5B36480822797BC100A29769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B3647A222769EAC00A29769 /* Main.storyboard */ = {
@@ -553,6 +728,7 @@
 		5B3647AE22769EAD00A29769 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B46YA9GNL5;
@@ -575,6 +751,7 @@
 		5B3647AF22769EAD00A29769 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B46YA9GNL5;
@@ -591,6 +768,78 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B36480C22797BC100A29769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = APIClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.APIClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B36480D22797BC100A29769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = APIClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.APIClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -611,6 +860,15 @@
 			buildConfigurations = (
 				5B3647AE22769EAD00A29769 /* Debug */,
 				5B3647AF22769EAD00A29769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B36480E22797BC100A29769 /* Build configuration list for PBXNativeTarget "APIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B36480C22797BC100A29769 /* Debug */,
+				5B36480D22797BC100A29769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
