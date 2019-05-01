@@ -1,5 +1,7 @@
 # iOS-UI-Catalog
 
+![Demo](https://github.com/ikawashima-cq/Resource/ui-catalog.gif)
+
 ## How to setup
 
 ### Environment
@@ -7,7 +9,6 @@
 - Swift ver4.2
 - Xcode ver10.1 & Command line tools for Xcode ver10.1 
 - Carthage ver0.32.0
-- CocoaPods ver1.5.3
 - Swiftlint Latest version
 
 MacのAppStoreの自動更新を止めてください。
@@ -22,5 +23,5 @@ https://developer.apple.com/downloads/
 プロジェクトをcloneしてきたあとにスクリプト実行
 
 ```
-$ sh UI_Catalog_build.sh
+$ sh bootstrap.sh
 ```
