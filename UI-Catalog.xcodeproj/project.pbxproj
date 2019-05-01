@@ -41,6 +41,8 @@
 		5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647F42277DF1300A29769 /* MessageInputBar.framework */; };
 		5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647F62277E07D00A29769 /* ChatViewController.storyboard */; };
 		5B3647F92277E16200A29769 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647F82277E16200A29769 /* Message.swift */; };
+		5B3647FB22784A9E00A29769 /* CustomButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647FA22784A9E00A29769 /* CustomButtons.storyboard */; };
+		5B3647FD22784BB700A29769 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647FC22784BB700A29769 /* OutlinedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		5B3647F42277DF1300A29769 /* MessageInputBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageInputBar.framework; path = Carthage/Build/iOS/MessageInputBar.framework; sourceTree = "<group>"; };
 		5B3647F62277E07D00A29769 /* ChatViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatViewController.storyboard; sourceTree = "<group>"; };
 		5B3647F82277E16200A29769 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5B3647FA22784A9E00A29769 /* CustomButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomButtons.storyboard; sourceTree = "<group>"; };
+		5B3647FC22784BB700A29769 /* OutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 		5B3647B42276A7C400A29769 /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
+				5B3647FA22784A9E00A29769 /* CustomButtons.storyboard */,
+				5B3647FC22784BB700A29769 /* OutlinedButton.swift */,
 			);
 			path = UIComponent;
 			sourceTree = "<group>";
@@ -317,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3647C82276C1AB00A29769 /* LicenseViewController.storyboard in Resources */,
+				5B3647FB22784A9E00A29769 /* CustomButtons.storyboard in Resources */,
 				5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */,
 				5B3647A922769EAD00A29769 /* LaunchScreen.storyboard in Resources */,
 				5B3647A622769EAD00A29769 /* Assets.xcassets in Resources */,
@@ -397,6 +404,7 @@
 				5B3647CA2276C1BB00A29769 /* LicenseViewController.swift in Sources */,
 				5B3647BC2276A8A400A29769 /* TutorialViewController.swift in Sources */,
 				5B3647F92277E16200A29769 /* Message.swift in Sources */,
+				5B3647FD22784BB700A29769 /* OutlinedButton.swift in Sources */,
 				5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */,
 				5B36479F22769EAC00A29769 /* AppDelegate.swift in Sources */,
 			);

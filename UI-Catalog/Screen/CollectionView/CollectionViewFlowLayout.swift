@@ -10,5 +10,5 @@ import Foundation
 import UIKit
 
 class CollectionViewFlowLayout: UICollectionViewLayout {
-
+    //Todo: - レイアウト設定追加する。
 }

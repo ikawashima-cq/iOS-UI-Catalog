@@ -46,6 +46,7 @@ class CustomCollectionViewCell: UICollectionViewCell {
     override func draw(_ rect: CGRect) {
         super.draw(rect)
 
+
         layer.cornerRadius = 8
     }
 }

@@ -24,6 +24,8 @@ class ChatViewController: MessagesViewController {
         messageInputBar.delegate = self
         messagesCollectionView.messagesDisplayDelegate = self
         // Do any additional setup after loading the view.
+
+        messagesCollectionView.backgroundColor = .orange
     }
     
     /*
