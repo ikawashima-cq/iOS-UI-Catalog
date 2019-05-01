@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import APIClient
 
 // staticで作成するためUITableViewControllerのサブクラス作成
 class MainViewController: UITableViewController {
@@ -15,6 +16,4 @@ class MainViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
 }
