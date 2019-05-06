@@ -60,6 +60,11 @@
 		5B3648262279A2E500A29769 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481C22798E2200A29769 /* BaseRequest.swift */; };
 		5B3648272279A2E800A29769 /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481A22798C2300A29769 /* APIRoutes.swift */; };
 		5B3648282279A2EC00A29769 /* AuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36481222797E0400A29769 /* AuthEntity.swift */; };
+		5BA8F9F7227F27670033AA7E /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8F9F6227F27670033AA7E /* PresentingViewController.swift */; };
+		5BA8F9F9227F27810033AA7E /* PresentationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8F9F8227F27810033AA7E /* PresentationViewController.storyboard */; };
+		5BA8F9FB227F2B9F0033AA7E /* CustomPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8F9FA227F2B9F0033AA7E /* CustomPresentationViewController.swift */; };
+		5BA8F9FC227F35E50033AA7E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3648152279874700A29769 /* Alamofire.framework */; };
+		5BA8F9FE227F4F1A0033AA7E /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8F9FD227F4F1A0033AA7E /* PresentedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +141,10 @@
 		5B36481C22798E2200A29769 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		5B36481E2279961900A29769 /* SignInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequest.swift; sourceTree = "<group>"; };
 		5B3648202279972D00A29769 /* SignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
+		5BA8F9F6227F27670033AA7E /* PresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		5BA8F9F8227F27810033AA7E /* PresentationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PresentationViewController.storyboard; sourceTree = "<group>"; };
+		5BA8F9FA227F2B9F0033AA7E /* CustomPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationViewController.swift; sourceTree = "<group>"; };
+		5BA8F9FD227F4F1A0033AA7E /* PresentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA8F9FC227F35E50033AA7E /* Alamofire.framework in Frameworks */,
 				5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */,
 				5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */,
 				5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */,
@@ -230,6 +240,7 @@
 				5B3647C62276C17F00A29769 /* LicenseView */,
 				5B3647CC2277035300A29769 /* CollectionView */,
 				5B3647E92277D8BA00A29769 /* ChatView */,
+				5BA8F9F5227F268C0033AA7E /* ModalView */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -343,6 +354,17 @@
 			path = APIClient;
 			sourceTree = "<group>";
 		};
+		5BA8F9F5227F268C0033AA7E /* ModalView */ = {
+			isa = PBXGroup;
+			children = (
+				5BA8F9F6227F27670033AA7E /* PresentingViewController.swift */,
+				5BA8F9FD227F4F1A0033AA7E /* PresentedViewController.swift */,
+				5BA8F9F8227F27810033AA7E /* PresentationViewController.storyboard */,
+				5BA8F9FA227F2B9F0033AA7E /* CustomPresentationViewController.swift */,
+			);
+			path = ModalView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -442,6 +464,7 @@
 			files = (
 				5B3647C82276C1AB00A29769 /* LicenseViewController.storyboard in Resources */,
 				5B3647FB22784A9E00A29769 /* CustomButtons.storyboard in Resources */,
+				5BA8F9F9227F27810033AA7E /* PresentationViewController.storyboard in Resources */,
 				5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */,
 				5B3647A922769EAD00A29769 /* LaunchScreen.storyboard in Resources */,
 				5B3647A622769EAD00A29769 /* Assets.xcassets in Resources */,
@@ -480,6 +503,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageInputBar.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
@@ -539,6 +563,7 @@
 				5B3647D32277052F00A29769 /* CustomCollectionViewCell.swift in Sources */,
 				5B3648272279A2E800A29769 /* APIRoutes.swift in Sources */,
 				5B3647E622770F6B00A29769 /* SectionHeaderView.swift in Sources */,
+				5BA8F9F7227F27670033AA7E /* PresentingViewController.swift in Sources */,
 				5B3647C32276AEFC00A29769 /* Style.swift in Sources */,
 				5B3647C12276AED500A29769 /* NSObjectProtcol+Extensions.swift in Sources */,
 				5B3647E822770F7C00A29769 /* SectionFooterView.swift in Sources */,
@@ -549,9 +574,11 @@
 				5B3647D8227706E000A29769 /* CollectionViewFlowLayout.swift in Sources */,
 				5B3647D0227703B100A29769 /* CollectionViewController.swift in Sources */,
 				5B3647CA2276C1BB00A29769 /* LicenseViewController.swift in Sources */,
+				5BA8F9FB227F2B9F0033AA7E /* CustomPresentationViewController.swift in Sources */,
 				5B3647BC2276A8A400A29769 /* TutorialViewController.swift in Sources */,
 				5B3647F92277E16200A29769 /* Message.swift in Sources */,
 				5B3647FD22784BB700A29769 /* OutlinedButton.swift in Sources */,
+				5BA8F9FE227F4F1A0033AA7E /* PresentedViewController.swift in Sources */,
 				5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */,
 				5B3648242279A2D200A29769 /* SignInRequest.swift in Sources */,
 				5B3648262279A2E500A29769 /* BaseRequest.swift in Sources */,
