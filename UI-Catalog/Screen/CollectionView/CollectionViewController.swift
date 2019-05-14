@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionViewController: UIViewController {
+class CollectionViewController: UIViewController, UICollectionViewDelegate {
 
     typealias DataSource = CollectionViewDataSource<CustomCollectionViewCell, ViewData>
     
@@ -19,7 +19,7 @@ class CollectionViewController: UIViewController {
             collectionView.register(SectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: SectionHeaderView.className)
             collectionView.register(SectionFooterView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: SectionFooterView.className)
             collectionView.dataSource = dataSource
-
+            collectionView.delegate = self
             // Todo: collectionviewflowlayout適用
         }
     }
@@ -52,4 +52,18 @@ class CollectionViewController: UIViewController {
     }
     */
 
+}
+extension CollectionViewController: UICollectionViewDelegateFlowLayout {
+    //Section毎のheaderの高さ
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        //sectionに応じて変更可能
+        if section == 0 {    return CGSize(width: 50, height: 50) }
+        else  {    return CGSize(width: 0, height: 0) }
+    }
+    //Section毎のfooterの高さ
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        //sectionに応じて変更可能
+        if section == CollectionViewData.sectionNumber - 1 {    return CGSize(width: 50, height: 50) }
+        else  {    return CGSize(width: 0, height: 0) }
+    }
 }
