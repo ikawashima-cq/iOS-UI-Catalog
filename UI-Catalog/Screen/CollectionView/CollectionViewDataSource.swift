@@ -23,11 +23,12 @@ class CollectionViewDataSource<CellType, EntityType>: NSObject, UICollectionView
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return 50
     }
 
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 3
+        CollectionViewData.sectionNumber = 6
+        return 6
     }
 
     func collectionView(_ collectionView: UICollectionView,
