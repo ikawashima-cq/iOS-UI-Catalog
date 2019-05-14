@@ -35,6 +35,11 @@ class CollectionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let layout = UICollectionViewFlowLayout()
+        layout.headerReferenceSize = CGSize(width: 50, height: 50)
+        layout.footerReferenceSize = CGSize(width: 50, height: 50)
+        layout.sectionInset = UIEdgeInsets(top: 24, left: 24, bottom: 24, right: 24)
+        collectionView.collectionViewLayout = layout
     }
 
     /*
