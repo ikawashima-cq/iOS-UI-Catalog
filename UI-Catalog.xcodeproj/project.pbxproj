@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D0C72E7228B383000F4B752 /* CollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C72E6228B383000F4B752 /* CollectionViewData.swift */; };
+		5B217AF622900F72003086D4 /* dino_loading_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B217AF522900F72003086D4 /* dino_loading_animation.json */; };
+		5B217AF822900FC9003086D4 /* wave_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B217AF722900FC9003086D4 /* wave_animation.json */; };
 		5B36479F22769EAC00A29769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36479E22769EAC00A29769 /* AppDelegate.swift */; };
 		5B3647A122769EAC00A29769 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647A022769EAC00A29769 /* MainViewController.swift */; };
 		5B3647A422769EAC00A29769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647A222769EAC00A29769 /* Main.storyboard */; };
@@ -94,6 +96,8 @@
 
 /* Begin PBXFileReference section */
 		2D0C72E6228B383000F4B752 /* CollectionViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewData.swift; sourceTree = "<group>"; };
+		5B217AF522900F72003086D4 /* dino_loading_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dino_loading_animation.json; sourceTree = "<group>"; };
+		5B217AF722900FC9003086D4 /* wave_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wave_animation.json; sourceTree = "<group>"; };
 		5B36479B22769EAC00A29769 /* UI-Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B36479E22769EAC00A29769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B3647A022769EAC00A29769 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +184,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B217AF322900F48003086D4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5B217AF422900F56003086D4 /* Animation */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5B217AF422900F56003086D4 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5B217AF522900F72003086D4 /* dino_loading_animation.json */,
+				5B217AF722900FC9003086D4 /* wave_animation.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		5B36479222769EAC00A29769 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +223,7 @@
 		5B36479D22769EAC00A29769 /* UI-Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				5B217AF322900F48003086D4 /* Resource */,
 				5B3647BE2276ADFD00A29769 /* Utility */,
 				5B3647BD2276ADEF00A29769 /* Style */,
 				5B3647B42276A7C400A29769 /* UIComponent */,
@@ -468,7 +490,9 @@
 				5B3647C82276C1AB00A29769 /* LicenseViewController.storyboard in Resources */,
 				5B3647FB22784A9E00A29769 /* CustomButtons.storyboard in Resources */,
 				5BA8F9F9227F27810033AA7E /* PresentationViewController.storyboard in Resources */,
+				5B217AF622900F72003086D4 /* dino_loading_animation.json in Resources */,
 				5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */,
+				5B217AF822900FC9003086D4 /* wave_animation.json in Resources */,
 				5B3647A922769EAD00A29769 /* LaunchScreen.storyboard in Resources */,
 				5B3647A622769EAD00A29769 /* Assets.xcassets in Resources */,
 				5B3647B82276A84100A29769 /* TutorialViewController.storyboard in Resources */,
