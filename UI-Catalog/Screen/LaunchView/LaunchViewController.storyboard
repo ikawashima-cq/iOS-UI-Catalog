@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Ub-hG-LKf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="iMi-vz-7Rv">
+            <objects>
+                <viewController storyboardIdentifier="LaunchViewController" id="2Ub-hG-LKf" customClass="LaunchViewController" customModule="UI_Catalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0bE-8U-6ek">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To iOS-Catalog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyv-Vu-vvm">
+                                <rect key="frame" x="10" y="377" width="355" height="90"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AsX-IZ-JDk" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="62.5" y="188.5" width="250" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="C2Z-n8-2CP"/>
+                                    <constraint firstAttribute="width" constant="250" id="PoH-lZ-zIA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fyv-Vu-vvm" firstAttribute="top" secondItem="AsX-IZ-JDk" secondAttribute="bottom" constant="38.5" id="BK7-q3-v35"/>
+                            <constraint firstItem="ixE-w0-FQ3" firstAttribute="bottom" secondItem="Fyv-Vu-vvm" secondAttribute="bottom" constant="200" id="Eek-2B-Slh"/>
+                            <constraint firstItem="ixE-w0-FQ3" firstAttribute="trailing" secondItem="Fyv-Vu-vvm" secondAttribute="trailing" constant="10" id="HGN-K9-l3v"/>
+                            <constraint firstItem="Fyv-Vu-vvm" firstAttribute="leading" secondItem="ixE-w0-FQ3" secondAttribute="leading" constant="10" id="NiL-H5-pJ1"/>
+                            <constraint firstItem="AsX-IZ-JDk" firstAttribute="centerY" secondItem="0bE-8U-6ek" secondAttribute="centerY" constant="-70" id="cPG-Rv-HMp"/>
+                            <constraint firstItem="AsX-IZ-JDk" firstAttribute="centerX" secondItem="0bE-8U-6ek" secondAttribute="centerX" id="fau-wQ-cjb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ixE-w0-FQ3"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="AsX-IZ-JDk" id="mFV-UA-fa5"/>
+                        <outlet property="titleLabel" destination="Fyv-Vu-vvm" id="dqi-Jy-pe2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="twQ-MV-7Gn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="156"/>
+        </scene>
+    </scenes>
+</document>

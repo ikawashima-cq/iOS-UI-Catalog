@@ -68,6 +68,8 @@
 		5BA8F9FB227F2B9F0033AA7E /* CustomPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8F9FA227F2B9F0033AA7E /* CustomPresentationViewController.swift */; };
 		5BA8F9FC227F35E50033AA7E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3648152279874700A29769 /* Alamofire.framework */; };
 		5BA8F9FE227F4F1A0033AA7E /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8F9FD227F4F1A0033AA7E /* PresentedViewController.swift */; };
+		5E6C00B22291370E00469A24 /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6C00B12291370E00469A24 /* LaunchViewController.storyboard */; };
+		5E6C00B42291372A00469A24 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C00B32291372A00469A24 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,8 @@
 		5BA8F9F8227F27810033AA7E /* PresentationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PresentationViewController.storyboard; sourceTree = "<group>"; };
 		5BA8F9FA227F2B9F0033AA7E /* CustomPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationViewController.swift; sourceTree = "<group>"; };
 		5BA8F9FD227F4F1A0033AA7E /* PresentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		5E6C00B12291370E00469A24 /* LaunchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchViewController.storyboard; sourceTree = "<group>"; };
+		5E6C00B32291372A00469A24 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +263,7 @@
 		5B3647B32276A7B100A29769 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				5E6C00AF229136D000469A24 /* LaunchView */,
 				5B3647B02276A76300A29769 /* TutorialView */,
 				5B3647B12276A77C00A29769 /* LoginView */,
 				5B3647C62276C17F00A29769 /* LicenseView */,
@@ -390,6 +395,15 @@
 			path = ModalView;
 			sourceTree = "<group>";
 		};
+		5E6C00AF229136D000469A24 /* LaunchView */ = {
+			isa = PBXGroup;
+			children = (
+				5E6C00B12291370E00469A24 /* LaunchViewController.storyboard */,
+				5E6C00B32291372A00469A24 /* LaunchViewController.swift */,
+			);
+			path = LaunchView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -487,6 +501,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6C00B22291370E00469A24 /* LaunchViewController.storyboard in Resources */,
 				5B3647C82276C1AB00A29769 /* LicenseViewController.storyboard in Resources */,
 				5B3647FB22784A9E00A29769 /* CustomButtons.storyboard in Resources */,
 				5BA8F9F9227F27810033AA7E /* PresentationViewController.storyboard in Resources */,
@@ -605,6 +620,7 @@
 				5B3647BC2276A8A400A29769 /* TutorialViewController.swift in Sources */,
 				2D0C72E7228B383000F4B752 /* CollectionViewData.swift in Sources */,
 				5B3647F92277E16200A29769 /* Message.swift in Sources */,
+				5E6C00B42291372A00469A24 /* LaunchViewController.swift in Sources */,
 				5B3647FD22784BB700A29769 /* OutlinedButton.swift in Sources */,
 				5BA8F9FE227F4F1A0033AA7E /* PresentedViewController.swift in Sources */,
 				5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */,
