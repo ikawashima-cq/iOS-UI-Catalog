@@ -1,7 +1,4 @@
 github "ReactiveX/RxSwift" == 4.4.0 #データバインディング
 github "airbnb/lottie-ios" "master"  #アニメーション
-github "kishikawakatsumi/KeychainAccess" == 3.1.2 #キーチェーン
 github "MessageKit/MessageKit" == 2.0.0  #チャット
-github "ephread/Instructions" == 1.2.2 #コーチマーク
-github "RxSwiftCommunity/RxDataSources" ~> 3.0 # Tableview datasource
 github "Alamofire/Alamofire" == 4.7.3 #WEB API
