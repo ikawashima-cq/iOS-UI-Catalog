@@ -11,13 +11,6 @@
 - Carthage ver0.32.0
 - Swiftlint Latest version
 
-MacのAppStoreの自動更新を止めてください。
-
-http://dezisaru.com/imac/2776.html
-
-次に Xcode10.1 と Command Line Tools for Xcode 10.1 をインストールしてください。
-https://developer.apple.com/downloads/
-
 ### Libruary Setup
 
 プロジェクトをcloneしてきたあとにスクリプト実行
@@ -25,3 +18,10 @@ https://developer.apple.com/downloads/
 ```
 $ sh bootstrap.sh
 ```
+
+### CI/CD
+
+- Bitrise
+   - Trigger(push develop branch/pull request to develop)
+- Fastlane
+- Danger
