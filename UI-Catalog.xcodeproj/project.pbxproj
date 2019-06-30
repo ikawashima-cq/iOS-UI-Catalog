@@ -31,15 +31,11 @@
 		5B3647D8227706E000A29769 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647D7227706E000A29769 /* CollectionViewFlowLayout.swift */; };
 		5B3647DB227708EE00A29769 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647DA227708EE00A29769 /* AudioManager.swift */; };
 		5B3647E122770A5F00A29769 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647DD22770A5F00A29769 /* Lottie.framework */; };
-		5B3647E222770A5F00A29769 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647DE22770A5F00A29769 /* KeychainAccess.framework */; };
 		5B3647E322770A5F00A29769 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647DF22770A5F00A29769 /* RxCocoa.framework */; };
 		5B3647E422770A5F00A29769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647E022770A5F00A29769 /* RxSwift.framework */; };
 		5B3647E622770F6B00A29769 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647E522770F6B00A29769 /* SectionHeaderView.swift */; };
 		5B3647E822770F7C00A29769 /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647E722770F7C00A29769 /* SectionFooterView.swift */; };
 		5B3647EB2277D8EA00A29769 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3647EA2277D8EA00A29769 /* ChatViewController.swift */; };
-		5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647EC2277DE1F00A29769 /* Differentiator.framework */; };
-		5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647ED2277DE1F00A29769 /* RxDataSources.framework */; };
-		5B3647F22277DE1F00A29769 /* Instructions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647EE2277DE1F00A29769 /* Instructions.framework */; };
 		5B3647F32277DE1F00A29769 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647EF2277DE1F00A29769 /* MessageKit.framework */; };
 		5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3647F42277DF1300A29769 /* MessageInputBar.framework */; };
 		5B3647F72277E07D00A29769 /* ChatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3647F62277E07D00A29769 /* ChatViewController.storyboard */; };
@@ -164,12 +160,8 @@
 			files = (
 				5BA8F9FC227F35E50033AA7E /* Alamofire.framework in Frameworks */,
 				5B3647F52277DF1300A29769 /* MessageInputBar.framework in Frameworks */,
-				5B3647F02277DE1F00A29769 /* Differentiator.framework in Frameworks */,
-				5B3647F12277DE1F00A29769 /* RxDataSources.framework in Frameworks */,
-				5B3647F22277DE1F00A29769 /* Instructions.framework in Frameworks */,
 				5B3647F32277DE1F00A29769 /* MessageKit.framework in Frameworks */,
 				5B3647E122770A5F00A29769 /* Lottie.framework in Frameworks */,
-				5B3647E222770A5F00A29769 /* KeychainAccess.framework in Frameworks */,
 				5B3647E322770A5F00A29769 /* RxCocoa.framework in Frameworks */,
 				5B36480A22797BC100A29769 /* APIClient.framework in Frameworks */,
 				5B3647E422770A5F00A29769 /* RxSwift.framework in Frameworks */,
@@ -536,13 +528,9 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/KeychainAccess.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Instructions.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageInputBar.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MessageKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
@@ -799,7 +787,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B46YA9GNL5;
+				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -811,7 +799,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IichiroKawashima.UI-Catalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevWildcard;
+				PROVISIONING_PROFILE_SPECIFIER = "personal development provisioning Profiles";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -823,7 +811,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B46YA9GNL5;
+				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -835,7 +823,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IichiroKawashima.UI-Catalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevWildcard;
+				PROVISIONING_PROFILE_SPECIFIER = "personal development provisioning Profiles";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -845,12 +833,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 74J2MM2NXF;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -882,11 +870,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 74J2MM2NXF;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
