@@ -32,3 +32,4 @@ Pods/
 # others
 *.swp
 .DS_Store/
+vendor/bundle
