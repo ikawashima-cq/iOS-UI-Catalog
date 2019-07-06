@@ -1,0 +1,14 @@
+# For more information about this configuration visit
+# https://docs.fastlane.tools/actions/scan/#scanfile
+
+# In general, you can use the options available
+# fastlane scan --help
+
+# Remove the # in front of the line to enable the option
+
+# デフォルトで設定したいパラメータを記載。Fastfileに同様のパラメータを用意したら上書きされる
+workspace("UI-Catalog.xcodeproj")
+scheme("UI-Catalog")
+configuration("Debug")
+clean(true)
+devices(["iPhone X"])
