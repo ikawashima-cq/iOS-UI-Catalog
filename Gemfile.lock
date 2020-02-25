@@ -150,7 +150,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (5.2.0)
     no_proxy_fix (0.1.2)
-    nokogiri (1.10.3)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
     octokit (4.14.0)
