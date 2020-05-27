@@ -1,11 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.3)
+    activesupport (6.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     aws-sdk (1.67.0)
@@ -27,7 +28,7 @@ GEM
     colored2 (3.1.2)
     commander (4.4.6)
       highline (~> 1.7.2)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.6)
     connection_pool (2.2.2)
     cork (0.3.0)
       colored2 (~> 3.1)
@@ -118,7 +119,7 @@ GEM
     highline (1.7.10)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (1.6.0)
+    i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     json (1.8.6)
     kramdown (2.1.0)
@@ -138,7 +139,7 @@ GEM
     mime-types-data (3.2019.0331)
     mini_magick (4.5.1)
     mini_portile2 (2.4.0)
-    minitest (5.11.3)
+    minitest (5.14.1)
     multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
@@ -210,7 +211,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
     tins (1.20.3)
-    tzinfo (1.2.5)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -222,6 +223,7 @@ GEM
       colored (~> 1.2)
     xcpretty (0.3.0)
       rouge (~> 2.0.7)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
