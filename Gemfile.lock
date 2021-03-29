@@ -121,7 +121,8 @@ GEM
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     json (1.8.6)
-    kramdown (2.1.0)
+    kramdown (2.3.1)
+      rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     mechanize (2.7.6)
@@ -164,6 +165,7 @@ GEM
       fastlane_core (>= 0.57.2, < 1.0.0)
       spaceship (>= 0.38.4, < 1.0.0)
     public_suffix (3.1.1)
+    rexml (3.2.4)
     rouge (2.0.7)
     rubyzip (1.1.7)
     sawyer (0.8.2)
